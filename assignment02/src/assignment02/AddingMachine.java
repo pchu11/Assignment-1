@@ -1,3 +1,9 @@
+/*
+Patrick Chu
+Assignment1 / 02
+Github Link: https://github.com/pchu11/Assignment-1
+*/
+
 package assignment02;
 
 public class AddingMachine 
@@ -34,5 +40,7 @@ public class AddingMachine
 
 	 public void clear() 
 	 {
+		 total = 0;
+	 	 printTotal = "0";
 	 }
 }

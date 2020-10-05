@@ -9,5 +9,9 @@ public class Assignment1
 		machine.subtract(3);
 		System.out.println(machine.getTotal());
 		System.out.println(machine.toString());
+		machine.clear();
+		System.out.println(machine.getTotal());
+		System.out.println(machine.toString());
+		
 	}
 }
